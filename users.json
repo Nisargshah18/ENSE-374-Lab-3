@@ -1,0 +1,28 @@
+{
+    "user1" : 
+    {
+        "username": "babe1234",
+        "password": "123456"
+    },
+    "user2" : 
+    {
+        "username": "rookie1234",
+        "password": "roxx1234"
+    },
+    "user3" : 
+    {
+        "username": "roti1234",
+        "password": "tli1234"
+    },
+    "user4" : 
+    {
+        "username": "fax64",
+        "password": "dax34"
+    },
+    "user5" : 
+    {
+       "username": "amateur1234",
+       "password": "amateu1234"
+    }
+    
+}
