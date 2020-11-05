@@ -69,3 +69,38 @@ app.post("/register", dataregistrateduser.authenticate("Users", {
     failureRedirect: "/register"
 }), function (req, res) { 
 }); 
+
+
+
+app.get("/logout", function (req, res) { 
+    req.logout(); 
+    res.redirect("/"); 
+}); 
+
+
+app.post("/addtask", function (req, res) { 
+    req.addtask(); 
+    res.redirect("/todo"); 
+}); 
+app.post("/unfinish", function (req, res) { 
+    req.unfinish(); 
+    res.redirect("/todo"); 
+}); 
+ 
+
+app.post("/purge", function (req, res) { 
+    req.purge(); 
+    res.redirect("/todo"); 
+}); 
+
+app.post("/abandonorcomplete", function (req, res) { 
+    req.abandonorcomplete(); 
+    res.redirect("/todo"); 
+}); 
+
+
+
+app.post("/claim", function (req, res) { 
+    req.claim(); 
+    res.redirect("/todo"); 
+});
