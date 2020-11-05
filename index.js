@@ -40,3 +40,32 @@ function tasklist(req, res)
     res.send(Tasks);
 } 
 
+app.get('/login', login);
+
+function login(req, res){
+    res.send(Login);
+}
+
+app.post("/login", dataloginuser.authenticate("Users", { 
+    successRedirect: "/todo", 
+    failureRedirect: "/login"
+}), function (req, res) { 
+}); 
+
+app.post("/register", function (req, res) { 
+    var username = req.body.username 
+    var password = req.body.password 
+    User.register(new User({ username: username }), 
+            password, function (err, user) { 
+        if (err) { 
+            console.log(err); 
+            return res.render("register"); 
+        } 
+    }); 
+}); 
+
+app.post("/register", dataregistrateduser.authenticate("Users", { 
+    successRedirect: "/todo", 
+    failureRedirect: "/register"
+}), function (req, res) { 
+}); 
