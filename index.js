@@ -22,9 +22,6 @@ var Users = JSON.parse(datauser);
 
 var Tasks = JSON.parse(datatask);
 
-console.log(Users);
-
-console.log(Tasks);
 
 app.get('/User', user); 
 
