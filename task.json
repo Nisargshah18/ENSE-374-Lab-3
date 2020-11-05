@@ -1,0 +1,48 @@
+{
+    "task1" : 
+    { 
+        "id" : "1",
+        "name" : "to do anything", 
+        "owner" : " ", 
+        "creator" : "any123", 
+        "done" : "0", 
+        "cleared" : "0"
+    },
+    "task2" : 
+    {
+        "id": "2",
+        "name" :"letssssgooo", 
+        "owner" : "damian", 
+        "creator" : "darcy", 
+        "done": "1", 
+        "cleared" : "0"
+    },
+    "task3" : 
+    {
+        "id" : "3",
+        "name" : "dang it", 
+        "owner" : "dam", 
+        "creator" : "dar", 
+        "done" : "1", 
+        "cleared" : "0"
+    },
+    "task4" : 
+    {
+        "id" : "4",
+        "name" : "lets get it", 
+        "owner" : "dude", 
+        "creator" : "harami", 
+        "done" : "1", 
+        "cleared" : "1"
+    },
+    "task5" : 
+    {
+        "id" : "5",
+        "name" : "tomorrow is the meeting", 
+        "owner" : "du1234", 
+        "creator" : "harami56789", 
+        "done" : "1", 
+        "cleared" : "1"
+    }
+    
+}
